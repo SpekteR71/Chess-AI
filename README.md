@@ -26,3 +26,7 @@ Future Work:
   1. Implementing transposition tables to make the AI faster.
   2. Hsving separate evaluation functions for opening, middlegame, endgame.
   3. Could explore using reinforcement learning to update piece value and position evaluation.
+  
+  
+  Edit: The AI's performance is rather impressive at depth 4, with the AI recognising threats pretty well. The true effect of alpha beta pruning can be seen in the             middlegame. The AI also makes book moves upto move 4 somtimes upto move 6 without having any explicit code recognising book moves. The AI performs rather   
+        poorly in the endgame even with an equal position as it does not see enough moves ahead.
