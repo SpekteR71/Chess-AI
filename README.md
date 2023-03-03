@@ -30,3 +30,7 @@ Future Work:
   
   Edit: The AI's performance is rather impressive at depth 4, with the AI recognising threats pretty well. The true effect of alpha beta pruning can be seen in the             middlegame. The AI also makes book moves upto move 4 somtimes upto move 6 without having any explicit code recognising book moves. The AI performs rather   
         poorly in the endgame even with an equal position as it does not see enough moves ahead.
+        
+  Edit 2: Upon playing a few games at depth 5, I discovered a minor bug. Assume piece 1 blocks check and opponent gives another check in the next move with piece 1  
+          still under pin, piece 1 is abe to move and block the second check. Other cases of pins seem to work fine.
+          
