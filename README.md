@@ -24,7 +24,7 @@ Observations:
   
 Future Work:
   1. Implementing transposition tables to make the AI faster.
-  2. Hsving separate evaluation functions for opening, middlegame, endgame.
+  2. Having separate evaluation functions for opening, middlegame, endgame.
   3. Could explore using reinforcement learning to update piece value and position evaluation.
   
   
