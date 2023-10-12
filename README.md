@@ -1,5 +1,5 @@
 # Chess-AI
-An chess AI developed from scratch 
+A chess AI developed from scratch 
 
 The UI, engine and the AI was created from scratch. I have uploaded three files viz. chessMain, chessEngine, chessAI. To play with the AI, run the chessMain.py file. Use 
 'z' to undo a move and 'r' to reset the board.
